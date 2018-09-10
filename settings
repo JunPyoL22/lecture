@@ -16,11 +16,11 @@ pip3 install tensorflow
 // Install Ipython kernel on the current virtualenv
 pip3 install ipykernel
 
-// Add python3 kernel to Jupyter
-python3 -m ipykernel install --user
-
 // Install jupyter notebook on the current virtualenv
 pip3 install jupyter
+
+// Add python3 kernel to Jupyter
+python3 -m ipykernel install --user
 
 // Download lecture materials in a directory named ~/Download
 cd Download
@@ -28,4 +28,4 @@ git clone https://github.com/aidentify/lecture
 
 // Run jupyter notebook on local pc 
 cd lecture
-juypyter notebook
+jupyter notebook
